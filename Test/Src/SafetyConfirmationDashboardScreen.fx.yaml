@@ -1,0 +1,87 @@
+"SafetyConfirmationDashboardScreen As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    LblAppName1 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =88
+        Size: =30
+        Text: ="Safety confirmation dashboard"
+        Width: =1266
+        X: =100
+        ZIndex: =2
+
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =
+        ZIndex: =3
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+    Button2 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        OnSelect: |-
+            =Refresh('NISSAN Incidents');
+            Navigate(ASISScreen);
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="ASIA"
+        Width: =402
+        X: =100
+        Y: =152
+        ZIndex: =4
+
+    Button2_1 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="AMIEO"
+        Width: =402
+        X: =100
+        Y: =283
+        ZIndex: =5
+
+    Button2_2 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="AMERICAS"
+        Width: =402
+        X: =100
+        Y: =420
+        ZIndex: =6
+
+    Icon1 As icon.ChevronLeft:
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back();
+        Width: =88
+        ZIndex: =7
+

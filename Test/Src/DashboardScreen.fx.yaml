@@ -1,0 +1,109 @@
+"DashboardScreen As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    LblAppName1_3 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =88
+        Size: =30
+        Text: ="Dashboard"
+        Width: =1266
+        X: =100
+        ZIndex: =2
+
+    Canvas1_3 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =
+        ZIndex: =3
+
+        DataCard1_3 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label1_2 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =49
+                Size: =20
+                Text: ="The latest information"
+                Width: =455
+                X: =76
+                Y: =104
+                ZIndex: =1
+
+            Button4_1 As button:
+                Fill: =RGBA(102, 182, 227, 1)
+                FontWeight: =FontWeight.Bold
+                OnSelect: |
+                    =Navigate(InputScreen);
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Text: ="Input"
+                Width: =163
+                X: =426
+                Y: =108
+                ZIndex: =2
+
+            Label1_4 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =49
+                Size: =20
+                Text: ="Safety confirmation result"
+                Width: =455
+                X: =76
+                Y: =327
+                ZIndex: =3
+
+            Button4_3 As button:
+                Fill: =RGBA(102, 182, 227, 1)
+                FontWeight: =FontWeight.Bold
+                OnSelect: |
+                    =Navigate(InputScreen);
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Text: ="Input"
+                Width: =163
+                X: =513
+                Y: =331
+                ZIndex: =4
+
+        DataCard2 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =100
+            Width: =1366
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+    Icon1_3 As icon.ChevronLeft:
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back();
+        Width: =88
+        ZIndex: =7
+
+    Label3 As label:
+        Height: =103
+        Size: =40
+        Text: ="XXXXXXXXXXXXXXXXXXX"
+        Width: =1210
+        X: =88
+        Y: =166
+        ZIndex: =8
+

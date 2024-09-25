@@ -1,0 +1,95 @@
+"InputScreen As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    LblAppName1_4 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =88
+        Size: =30
+        Text: ="Input"
+        Width: =1266
+        X: =100
+        ZIndex: =2
+
+    Canvas1_4 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =
+        ZIndex: =3
+
+        DataCard1_4 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label1_3 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =49
+                Size: =20
+                Text: ="The latest information"
+                Width: =455
+                X: =76
+                Y: =104
+                ZIndex: =1
+
+            Button4_2 As button:
+                Fill: =RGBA(102, 182, 227, 1)
+                FontWeight: =FontWeight.Bold
+                OnSelect: |
+                    =Navigate(NewIncidentScreen);
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Text: ="Input"
+                Width: =163
+                X: =426
+                Y: =108
+                ZIndex: =2
+
+            Button4_4 As button:
+                Fill: =RGBA(102, 182, 227, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =115
+                OnSelect: =
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Text: ="Home"
+                Width: =501
+                X: =88
+                Y: =356
+                ZIndex: =3
+
+            Button4_5 As button:
+                Fill: =RGBA(102, 182, 227, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =115
+                OnSelect: |
+                    =Navigate(RegionScreen);
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Text: ="Region"
+                Width: =501
+                X: =707
+                Y: =356
+                ZIndex: =4
+
+    Icon1_4 As icon.ChevronLeft:
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back();
+        Width: =88
+        ZIndex: =7
+

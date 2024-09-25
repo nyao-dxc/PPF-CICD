@@ -1,0 +1,23 @@
+TopScreen As screen:
+    BackgroundImage: ='Screenshot 2024-07-29 153022'
+
+    Button1 As button:
+        Height: =65
+        OnSelect: =Navigate(DashboardScreen)
+        Size: =30
+        Text: ="DASHBOARD"
+        Width: =285
+        X: =393
+        Y: =628
+        ZIndex: =1
+
+    Button1_1 As button:
+        Height: =65
+        OnSelect: =Navigate(SafetyConfirmationDashboardScreen)
+        Size: =30
+        Text: ="SYSTEM"
+        Width: =245
+        X: =746
+        Y: =628
+        ZIndex: =2
+

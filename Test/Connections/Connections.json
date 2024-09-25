@@ -1,0 +1,31 @@
+{
+  "24431bb2-efc9-414c-81ed-50d36f41003e": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://dxcportal.sharepoint.com/sites/SupportTMC": {
+        "dataSources": {
+          "NISSAN Incidents": {
+            "tableName": "092961e0-aabb-4055-866f-de04ddad2944"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "NISSAN Incidents"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "24431bb2-efc9-414c-81ed-50d36f41003e"
+  }
+}

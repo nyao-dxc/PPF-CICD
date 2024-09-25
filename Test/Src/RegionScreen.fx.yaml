@@ -1,0 +1,131 @@
+"RegionScreen As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    LblAppName1_5 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =88
+        Size: =30
+        Text: ="Region"
+        Width: =1266
+        X: =100
+        ZIndex: =2
+
+    Canvas1_5 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =
+        ZIndex: =3
+
+        DataCard1_5 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+    Button2_3 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        OnSelect: =
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="AMERICAS"
+        Width: =402
+        X: =100
+        Y: =152
+        ZIndex: =4
+
+    Button2_4 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="NCIC"
+        Width: =402
+        X: =100
+        Y: =283
+        ZIndex: =5
+
+    Button2_5 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="NPI"
+        Width: =402
+        X: =100
+        Y: =420
+        ZIndex: =6
+
+    Icon1_5 As icon.ChevronLeft:
+        Height: =88
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Back();
+        Width: =88
+        ZIndex: =7
+
+    Button2_6 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        OnSelect: =
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="AMIEO"
+        Width: =402
+        X: =606
+        Y: =149
+        ZIndex: =8
+
+    Button2_7 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="NMT"
+        Width: =402
+        X: =606
+        Y: =280
+        ZIndex: =9
+
+    Button2_8 As button:
+        Fill: =RGBA(102, 182, 227, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =98
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =30
+        Text: ="NML"
+        Width: =402
+        X: =606
+        Y: =417
+        ZIndex: =10
+

@@ -1,0 +1,50 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2024-07-05T16:36:01.0450000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "添付ファイル",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "拡張子付きのファイル名",
+      "{FullPath}": "完全パス ",
+      "{HasAttachments}": "添付ファイルあり",
+      "{Identifier}": "識別子",
+      "{IsFolder}": "フォルダーである",
+      "{Link}": "アイテムへのリンク",
+      "{ModerationComment}": "このリスト アイテムのコンテンツの承認に関連付けられているコメント",
+      "{ModerationStatus}": "コンテンツの承認状態",
+      "{Name}": "名前",
+      "{Path}": "フォルダーのパス",
+      "{Thumbnail}": "サムネイル",
+      "{TriggerWindowEndToken}": "ウィンドウ終了のトークンのトリガー",
+      "{TriggerWindowStartToken}": "ウィンドウ開始のトークンのトリガー",
+      "{VersionNumber}": "バージョン番号",
+      "Author": "登録者",
+      "Author#Claims": "登録者 Claims",
+      "ComplianceAssetId": "コンプライアンス資産 ID",
+      "Created": "登録日時",
+      "Editor": "更新者",
+      "Editor#Claims": "更新者 Claims",
+      "ID": "ID",
+      "Modified": "更新日時",
+      "OData__ColorTag": "色タグ",
+      "OData__x30e6__x30fc__x30b6__x30fc_": "ユーザー",
+      "OData__x30e6__x30fc__x30b6__x30fc_#Claims": "ユーザー Claims",
+      "OData__x672c__x4eba__x306e__x72b6__x6c": "本人の状況",
+      "OData__x672c__x4eba__x306e__x72b6__x6c#Id": "本人の状況 Id",
+      "OData__x707d__x5bb3__x8a73__x7d30__x60": "災害詳細情報",
+      "OData__x767a__x751f__x65e5_": "発生日",
+      "Title": "Title"
+    },
+    "DatasetName": "https://dxcportal.sharepoint.com/sites/SupportTMC",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "NISSAN Incidents",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
