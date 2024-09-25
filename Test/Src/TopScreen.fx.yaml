@@ -15,7 +15,7 @@ TopScreen As screen:
         Height: =65
         OnSelect: =Navigate(SafetyConfirmationDashboardScreen)
         Size: =30
-        Text: ="SYSTEM"
+        Text: ="SYSTEM2222"
         Width: =245
         X: =746
         Y: =628
